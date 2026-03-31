@@ -9,10 +9,20 @@ function Callfun()
 	{
 	  alert("FUNCTION CALL");
 	}
+  function Fruit()
+	{
+	  alert("YOU HAVE CLICKED ON APPLE");
+	}
+  function Yellow()
+	{
+	  alert("YOU HAVE CLICKED ON BANANA");
+	}
   return (
     <div>
             <h1>WELCOME TO NEW PROJECT</h1>
             <button onClick={Callfun}>OK</button>
+            <button onClick={Fruit}>   APPLE  </button>
+            <button onClick={Yellow}>  BANANA  </button>
     </div>
   )
 }
